@@ -1,0 +1,71 @@
+
+            h1{
+                position: absolute;
+                color: yellow;
+                font-size: 60px;
+                text-shadow: 2px 2px 3px rgb(0, 0, 0);
+                font-family: Impact,fantasy;
+                opacity: 85%;
+                max-width: 1200px;
+                position: relative;
+                margin-top: 8px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+            h3{
+                color:white;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 30px;
+                margin: 7px;
+                padding: 7px;
+            }
+            h4{
+                color:white;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 25px;
+                margin: 7px;
+                padding: 7px;
+            }
+            h6{
+                color:rgb(153, 153, 153);
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 15px;
+                margin: 13px;
+                padding: 13px;
+            }
+            body{
+                margin: 0px;
+                padding: 0px;
+            }
+            .container{
+                max-width: 1920px;
+                width: 100%;
+            }
+            header{
+                position:relative;
+                top:0;
+                height:auto;
+                width:100%;
+            }
+            nav{
+                position:relative;
+                top:0;
+                height:100px;
+                width:100%;
+                z-index: 0;
+                background-color: #0f0f14(49, 49, 49);
+                border-bottom: 1px solid white;
+            }
+            nav:after{
+                clear: both;
+                content: "";
+                display: block;
+            }
+        
+        
+            .DMC image{
+                position:relative;
+                width: 80%;
+                height: 80%;
+            }
+            
